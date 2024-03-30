@@ -242,8 +242,11 @@
   .carousel-item img {
     height: 300px;
   }
+  .slider_head {
+    font-size: 25px !important;
+  }
   .slider_head_div {
-    top: 5rem;
+    top: 6rem;
   }
   .allImg {
     display: flex;
