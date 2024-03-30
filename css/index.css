@@ -236,6 +236,9 @@
 
 @media (max-width: 575px) {
   .allImg {
+    display: flex;
+    justify-content: center;
+    min-width: 300px;
     width: 95%;
     margin: 0 auto;
   }
