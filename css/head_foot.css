@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 /* header */
+
 .navDiv {
   padding: 0 2%;
   position: fixed;
@@ -131,7 +132,15 @@ body {
 }
 
 /* Show the Dropdown Content on Hover */
-
+@media (max-width: 500px) {
+  .goog-te-gadget-simple {
+    width: 110px;
+    font-size: 10px !important;
+  }
+  .navHead {
+    padding-left: unset !important;
+  }
+}
 @media (max-width: 400px) {
   .footerBtm {
     flex-direction: column;
