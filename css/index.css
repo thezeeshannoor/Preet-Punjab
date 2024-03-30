@@ -238,13 +238,13 @@
   .allImg {
     display: flex;
     justify-content: center;
-    min-width: 300px;
+
     width: 95%;
     margin: 0 auto;
   }
   .allImg img {
     object-fit: cover;
-
+    min-width: 300px;
     width: 100%;
   }
   .heritage {
