@@ -234,10 +234,16 @@
 .allImg {
   margin-top: 20px;
 }
-
+.slider_head_div {
+  top: 8rem;
+  bottom: unset !important;
+}
 @media (max-width: 575px) {
   .carousel-item img {
     height: 300px;
+  }
+  .slider_head_div {
+    top: 5rem;
   }
   .allImg {
     display: flex;
