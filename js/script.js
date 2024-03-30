@@ -275,6 +275,7 @@ document.addEventListener("DOMContentLoaded", function () {
         targetBtn.classList.add("filterBtnActive");
         all.forEach((img) => {
           img.style.display = "block";
+          img.style.minWidth = "300px";
           setTimeout(() => {
             img.style.animation = "move 0.2s linear 1";
           }, 0);
