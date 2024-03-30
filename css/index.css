@@ -7,6 +7,7 @@
 }
 .carousel-item img {
   filter: brightness(60%);
+  height: 80vh;
 }
 .boxDiv h3 {
   font-size: 16px;
@@ -236,7 +237,7 @@
 
 @media (max-width: 575px) {
   .carousel-item img {
-    height: unset;
+    height: 300px;
   }
   .allImg {
     display: flex;
