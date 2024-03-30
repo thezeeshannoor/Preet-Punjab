@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.loginbody{
+    background-color:#fdf1cb;
+
+}
+
+
+/* main section */
+.main-signup-section {
+    padding: 50px 0px;
+}
+
+/* Contect Section */
+
+.main-signup-section .image-section-content {
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: white;
+    padding: 70px 0px;
+    height: 400px;
+}
+
+.main-signup-section .signup-image-section {
+    background: url(../images/signup-transformed.jpeg) no-repeat;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15%;
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+    color: var(--white-color);
+}
+
+
+
+.contform {
+    width: 407px
+}
+
+.conbtn {
+    width: 25px;
+}
+
+
+.signup-form-section .para h5  {
+    color: #9b2c47;
+}
+
+.signup-form-section .form-section-heading {
+    background-color: #9b2c47;
+    border-radius: 0px 20px 0px 0px;
+}
+
+.signup-form-section .form-section-heading h2 {
+    color: white;
+    font-size: 20px;
+    padding: 23px;
+}
+
+.signup-form-section .signup-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 15%;
+    background-color:white ;
+    text-align: left;
+}
+.signup-form-section .signup-section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4% 15%;
+    background-color:rgb(214, 212, 212) ;
+    text-align: left;
+}
+
+.signup-form-section .signup-section h4 {
+    font-size: 43px;
+    float: left;
+    margin-bottom: 70px;
+    font-weight: 900;
+    color: black;
+}
+
+.signup-form-section .signup-section1 p>a {
+    color: #f27420 !important;
+    text-decoration: none;
+}
+.form-control{
+    padding: 0.667rem 0.75rem;
+    border: 2px solid rgb(214, 212, 212);
+}
+.signup-section button,
+.image-section button {
+    width: 50%;
+    margin-bottom: 50px;
+    background-color: #f27420 !important;
+    padding: 12px 0px !important;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    float: inline-end;
+    margin-top: 15px;
+}
+.submitbtn{
+    width: 70%;
+}
+.form-control:focus {
+
+    border-color: #ced4da !important;
+    box-shadow: none !important;
+}
+.form-check-input:checked {
+    background-color: #f27420 !important;
+    border-color: #f27420 !important;
+}
+
+.form-check-input:focus {
+    border-color: #f27420;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(243 126 154 / 25%);
+}

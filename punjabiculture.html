@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/punjabi_culture_heritage.css" />
+    <link rel="stylesheet" href="css/head_foot.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <title>Punjabi Culture</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navDiv d-flex flex-column py-2">
+      <div
+        class="firstNav d-flex justify-content-between justify-content-sm-between"
+      >
+        <div class="dropdown d-flex align-items-center">
+          <div id="myDropdown" class="dropdown-content">
+            <!-- Google Translate Element -->
+            <div id="google_translate_element"></div>
+          </div>
+        </div>
+
+        <h1 class="navHead">
+          <a href="index.html" class="text-decoration-none text-black"
+            >Preet//<span style="color: #f27420">Punjab</span></a
+          >
+        </h1>
+        <div
+          class="searchSignUp d-flex justify-content-center align-items-center gap-sm-4 gap-lg-2"
+        >
+          <input type="text" class="rounded searchBar d-none d-lg-block" />
+          <div
+            class="rounded px-2 py-2 d-none d-lg-block text-white d-flex align-items-center justify-content-center"
+            style="background-color: #f27420; cursor: pointer"
+          >
+            <img src="images/search.png" alt="" width="20" />
+          </div>
+          <div
+            class="line d-none d-lg-block"
+            style="
+              width: 2px;
+              height: 40px;
+              background-color: rgba(0, 0, 0, 0.452);
+            "
+          ></div>
+          <button
+            class="btn text-white d-none d-md-block"
+            style="background-color: #f27420"
+          >
+            <a href="signup.html"> Sign Up</a>
+          </button>
+          <div id="navBtn">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="navPages" class="navPages justify-content-between py-3">
+        <div class="d-flex justify-content-center gap-1">
+          <input type="text" class="rounded searchBar d-block d-lg-none" />
+          <div
+            class="rounded px-2 py-2 d-block d-lg-none text-white d-flex align-items-center justify-content-center"
+            style="background-color: #f27420; cursor: pointer"
+          >
+            <img src="images/search.png" alt="" width="20" />
+          </div>
+        </div>
+        <div class="fw-medium">
+          <a id="home" class="text-decoration-none" href="index.html">Home</a>
+        </div>
+        <div class="fw-medium">
+          <a id="about" class="text-decoration-none" href="about.html"
+            >About Us</a
+          >
+        </div>
+        <div class="fw-medium">
+          <a id="poet" class="text-decoration-none" href="poets.html">Poet</a>
+        </div>
+        <div class="fw-medium">
+          <a id="poetry" class="text-decoration-none" href="poetry.html"
+            >Poetry</a
+          >
+        </div>
+        <div class="fw-medium">
+          <a id="kalam" class="text-decoration-none" href="index.html"
+            >Sufiyana Kalam</a
+          >
+        </div>
+        <div class="fw-medium">
+          <a
+            id="culture"
+            class="text-decoration-none active"
+            href="punjabiculture.html"
+            >Punjabi Culture</a
+          >
+        </div>
+        <div class="fw-medium">
+          <a
+            id="heritage"
+            class="text-decoration-none"
+            href="punjabheritage.html"
+            >Punjab Heritage</a
+          >
+        </div>
+        <div href="index.html" class="fw-medium">
+          <a id="conatct" class="text-decoration-none" href="contact.html"
+            >Contact Us</a
+          >
+        </div>
+        <button
+          class="btn text-white d-block d-md-none"
+          style="background-color: #f27420"
+        >
+          Sign Up
+        </button>
+      </div>
+    </div>
+
+    <div class="firstSec my-5">
+      <!-- slider -->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/Punjabi-Luddi-1024x568.jpg"
+              class="d-block w-100"
+              alt="..."
+              style="object-fit: cover; height: 60vh"
+            />
+            <div
+              class="carousel-caption d-md-block text-center"
+              style="top: 8rem; bottom: unset !important"
+              ;
+            >
+              <h1 class="slider_head">
+                Punjabi <span style="color: #f27420">Culture</span>
+              </h1>
+
+              <div class="d-flex justify-content-center d-none d-md-flex">
+                <p class="w-50 fs-5">
+                  Traditions and Culture Diversty of Punjab
+                </p>
+              </div>
+
+              <div class="d-flex justify-content-center">
+                <a href="./punjabi_sub.html">
+                  <button
+                    class="btn text-white"
+                    style="background-color: #f27420"
+                  >
+                    View More
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="images/bangra.jpg"
+              class="d-block w-100"
+              alt="..."
+              style="object-fit: cover; height: 60vh"
+            />
+            <div
+              class="carousel-caption d-md-block text-center"
+              style="top: 8rem; bottom: unset !important"
+              ;
+            >
+              <h1 class="slider_head">
+                Punjabi <span style="color: #f27420">Culture</span>
+              </h1>
+
+              <div class="d-flex justify-content-center d-none d-md-flex">
+                <p class="w-50 fs-5">
+                  Traditions and Culture Diversty of Punjab
+                </p>
+              </div>
+
+              <div class="d-flex justify-content-center">
+                <a href="./punjabi_sub.html">
+                  <button
+                    class="btn text-white"
+                    style="background-color: #f27420"
+                  >
+                    View More
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="cont">
+        <!-- food section -->
+        <div class="mx-2 mx-md-0 mx-lg-4 mx-lg-5 my-5">
+          <div
+            class="d-flex align-items-center mx-md-2 mx-lg-4 mx-xl-5 p-5 gap-5 foodSec"
+          >
+            <div class="txt">
+              <h2>Foods</h2>
+              <p>
+                Makke di Roti (maize bread) and Sarson da Saag (mustard leaf
+                curry) is another traditional dish of Punjab. There are many
+                other foods like Chole Bhathure, Rajma Chawal and Paneer Naan,
+                but one of the humongous favourites is Tandoori Chicken!
+              </p>
+              <div class="d-flex justify-content-start">
+                <a href="./punjabi_sub.html">
+                  <button
+                    class="btn text-white"
+                    style="background-color: #f27420"
+                  >
+                    View More
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div
+              class="img d-flex justify-content-center justify-content-lg-end py-5"
+            >
+              <div class="relDiv">
+                <img
+                  class="absDiv"
+                  src="images/Makki-di-Roti-and-Sarson-ka-Saag 1.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- dress section -->
+        <div class="mx-2 mx-md-0 mx-lg-4 mx-lg-5 my-5">
+          <div
+            class="d-flex align-items-center mx-md-2 mx-lg-4 mx-xl-5 p-5 gap-5 dressSec"
+          >
+            <div
+              class="img d-flex justify-content-center justify-content-lg-between py-5"
+            >
+              <div class="relDiv">
+                <img
+                  class="absDiv"
+                  src="images/220px-Punjabi_Traditional_Fashion_-_Cultural_Night_-_Wiki_Conference_India_-_CGC_-_Mohali_2016-08-05_7370 1.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="txt">
+              <h2>Dresses</h2>
+              <p>
+                The costumes are a mix of colours, comfort and beauty and Punjab
+                is well known for the use of phulkari(embroidery) in its
+                costumes. In most of the villages of Punjab men wear
+                Pagri(turban), dhoti/lacha, kurta, khusa.
+              </p>
+              <div class="d-flex justify-content-start">
+                <a href="./punjabi_sub.html">
+                  <button
+                    class="btn text-white"
+                    style="background-color: #f27420"
+                  >
+                    View More
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- art section -->
+        <div class="mx-2 mx-md-0 mx-lg-4 mx-lg-5 my-5">
+          <div
+            class="d-flex align-items-center mx-md-2 mx-lg-4 mx-xl-5 p-5 gap-5 artSec"
+          >
+            <div class="txt">
+              <h2>Art</h2>
+              <p>
+                Makke di Roti (maize bread) and Sarson da Saag (mustard leaf
+                curry) is another traditional dish of Punjab. There are many
+                other foods like Chole Bhathure, Rajma Chawal and Paneer Naan,
+                but one of the humongous favourites is Tandoori Chicken!
+              </p>
+
+              <div class="d-flex justify-content-start">
+                <a href="./punjabi_sub.html">
+                  <button
+                    class="btn text-white"
+                    style="background-color: #f27420"
+                  >
+                    View More
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div
+              class="img d-flex justify-content-center justify-content-lg-end py-5"
+            >
+              <div class="relDiv">
+                <img class="absDiv" src="images/images (14) 1.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dance Section -->
+
+        <div class="mx-2 mx-md-0 mx-lg-4 mx-lg-5 my-5">
+          <div
+            class="d-flex align-items-center mx-md-2 mx-lg-4 mx-xl-5 p-5 gap-5 danceSec"
+          >
+            <div
+              class="img d-flex justify-content-center justify-content-lg-between py-5"
+            >
+              <div class="relDiv">
+                <img
+                  class="absDiv"
+                  src="images/group-modern-bhangra-dancers-fun-600w-2282785947 1.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="txt">
+              <h2>Dances</h2>
+              <p>
+                The costumes are a mix of colours, comfort and beauty and Punjab
+                is well known for the use of phulkari(embroidery) in its
+                costumes. In most of the villages of Punjab men wear
+                Pagri(turban), dhoti/lacha, kurta, khusa.
+              </p>
+              <div class="d-flex justify-content-start">
+                <a href="./punjabi_sub.html">
+                  <button
+                    class="btn text-white"
+                    style="background-color: #f27420"
+                  >
+                    View More
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footerBtm">
+      <div>
+        <a href="index.html">Preet Punjab.com</a>
+      </div>
+
+      <div class="ftrAbout">
+        <div><a href="about.html">About Us</a></div>
+        <div class="ftrLine"></div>
+        <div><a href="contact.html">Contact Us</a></div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

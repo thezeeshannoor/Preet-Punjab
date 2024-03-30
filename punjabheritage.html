@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/punjabi_culture_heritage.css" />
+    <link rel="stylesheet" href="css/head_foot.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <title>Punjabi Heritage</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navDiv d-flex flex-column py-2">
+      <div
+        class="firstNav d-flex justify-content-between justify-content-sm-between"
+      >
+        <div class="dropdown d-flex align-items-center">
+          <div id="myDropdown" class="dropdown-content">
+            <!-- Google Translate Element -->
+            <div id="google_translate_element"></div>
+          </div>
+        </div>
+
+        <h1 class="navHead">
+          <a href="index.html" class="text-decoration-none text-black"
+            >Preet//<span style="color: #f27420">Punjab</span></a
+          >
+        </h1>
+        <div
+          class="searchSignUp d-flex justify-content-center align-items-center gap-sm-4 gap-lg-2"
+        >
+          <input type="text" class="rounded searchBar d-none d-lg-block" />
+          <div
+            class="rounded px-2 py-2 d-none d-lg-block text-white d-flex align-items-center justify-content-center"
+            style="background-color: #f27420; cursor: pointer"
+          >
+            <img src="images/search.png" alt="" width="20" />
+          </div>
+          <div
+            class="line d-none d-lg-block"
+            style="
+              width: 2px;
+              height: 40px;
+              background-color: rgba(0, 0, 0, 0.452);
+            "
+          ></div>
+          <button
+            class="btn text-white d-none d-md-block"
+            style="background-color: #f27420"
+          >
+            <a href="signup.html"> Sign Up</a>
+          </button>
+          <div id="navBtn">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="navPages" class="navPages justify-content-between py-3">
+        <div class="d-flex justify-content-center gap-1">
+          <input type="text" class="rounded searchBar d-block d-lg-none" />
+          <div
+            class="rounded px-2 py-2 d-block d-lg-none text-white d-flex align-items-center justify-content-center"
+            style="background-color: #f27420; cursor: pointer"
+          >
+            <img src="images/search.png" alt="" width="20" />
+          </div>
+        </div>
+        <div class="fw-medium">
+          <a id="home" class="text-decoration-none" href="index.html">Home</a>
+        </div>
+        <div class="fw-medium">
+          <a id="about" class="text-decoration-none" href="about.html"
+            >About Us</a
+          >
+        </div>
+        <div class="fw-medium">
+          <a id="poet" class="text-decoration-none" href="poets.html">Poet</a>
+        </div>
+        <div class="fw-medium">
+          <a id="poetry" class="text-decoration-none" href="poetry.html"
+            >Poetry</a
+          >
+        </div>
+        <div class="fw-medium">
+          <a id="kalam" class="text-decoration-none" href="index.html"
+            >Sufiyana Kalam</a
+          >
+        </div>
+        <div class="fw-medium">
+          <a
+            id="culture"
+            class="text-decoration-none"
+            href="punjabiculture.html"
+            >Punjabi Culture</a
+          >
+        </div>
+        <div class="fw-medium">
+          <a
+            id="heritage"
+            class="text-decoration-none active"
+            href="punjabheritage.html"
+            >Punjab Heritage</a
+          >
+        </div>
+        <div href="index.html" class="fw-medium">
+          <a id="conatct" class="text-decoration-none" href="contact.html"
+            >Contact Us</a
+          >
+        </div>
+        <button
+          class="btn text-white d-block d-md-none"
+          style="background-color: #f27420"
+        >
+          Sign Up
+        </button>
+      </div>
+    </div>
+
+    <div class="firstSec my-5">
+      <!-- slider -->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/badshahSlider.webp"
+              class="d-block w-100"
+              alt="..."
+              style="object-fit: cover; height: 60vh"
+            />
+            <div
+              class="carousel-caption d-md-block text-center"
+              style="top: 8rem; bottom: unset !important"
+              ;
+            >
+              <h1 class="slider_head">
+                Punjabi <span style="color: #f27420">Heritage</span>
+              </h1>
+
+              <div class="d-flex justify-content-center d-none d-md-flex">
+                <p class="w-50 fs-5">
+                  Traditions and Culture Diversty of Punjab
+                </p>
+              </div>
+
+              <div class="d-flex justify-content-center">
+                <a href="./heritage_sub.html">
+                  <button
+                    class="btn text-white"
+                    style="background-color: #f27420"
+                  >
+                    View More
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="images/badshahSlider.webp"
+              class="d-block w-100"
+              alt="..."
+              style="object-fit: cover; height: 60vh"
+            />
+            <div
+              class="carousel-caption d-md-block text-center"
+              style="top: 8rem; bottom: unset !important"
+              ;
+            >
+              <h1 class="slider_head">
+                Punjabi <span style="color: #f27420">Heritage</span>
+              </h1>
+
+              <div class="d-flex justify-content-center d-none d-md-flex">
+                <p class="w-50 fs-5">
+                  Traditions and Culture Diversty of Punjab
+                </p>
+              </div>
+
+              <div class="d-flex justify-content-center">
+                <a href="./heritage_sub.html">
+                  <button
+                    class="btn text-white"
+                    style="background-color: #f27420"
+                  >
+                    View More
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="cont">
+        <div>
+          <!-- faisal mosque section -->
+          <div class="mx-2 mx-md-0 mx-lg-4 mx-lg-5 my-5">
+            <div
+              class="d-flex align-items-center mx-md-2 mx-lg-4 mx-xl-5 p-5 gap-5 faisalSec"
+            >
+              <div class="txt">
+                <h2>Faisal Mosque</h2>
+                <p>
+                  The Faisal Mosque in Islamabad, Pakistan, is renowned for its
+                  modern design, inspired by a Bedouin tent, with four towering
+                  minarets and a vast prayer hall.
+                </p>
+                <div class="d-flex justify-content-start">
+                  <a href="./heritage_sub.html" id="faisal">
+                    <button
+                      class="btn text-white"
+                      style="background-color: #f27420"
+                    >
+                      View More
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div
+                class="img d-flex justify-content-center justify-content-lg-end py-5"
+              >
+                <img class="w-100 shadowImg" src="images/faisal.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- minare pakistan -->
+          <div class="mx-2 mx-md-0 mx-lg-4 mx-lg-5 my-5">
+            <div
+              class="d-flex align-items-center mx-md-2 mx-lg-4 mx-xl-5 p-5 gap-5 minarSec"
+            >
+              <div
+                class="img d-flex justify-content-center justify-content-lg-end py-5"
+              >
+                <img class="w-100 shadowImg" src="images/minar.jpg" alt="" />
+              </div>
+
+              <div class="txt">
+                <h2>Minar-e-Pakistan</h2>
+                <p>
+                  The Minar-e-Pakistan in Lahore symbolizes Pakistan's
+                  independence, commemorating the Lahore Resolution of 1940.
+                  Standing over 70 meters tall, it is a significant landmark and
+                  a reminder of the nation's history.
+                </p>
+                <div class="d-flex justify-content-start">
+                  <a href="./heritage_sub.html">
+                    <button
+                      class="btn text-white"
+                      style="background-color: #f27420"
+                    >
+                      View More
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- badshahi section -->
+
+          <div class="mx-2 mx-md-0 mx-lg-4 mx-lg-5 my-5">
+            <div
+              class="d-flex align-items-center mx-md-2 mx-lg-4 mx-xl-5 p-5 gap-5 badshahSec"
+            >
+              <div class="txt">
+                <h2 class="org">Badshahi Mosque</h2>
+                <p>
+                  The Badshahi Mosque in Lahore, Pakistan, is a masterpiece of
+                  Mughal architecture, known for its grandeur and historical
+                  significance.
+                </p>
+                <div class="d-flex justify-content-start">
+                  <a href="./heritage_sub.html">
+                    <button
+                      class="btn text-white"
+                      style="background-color: #f27420"
+                    >
+                      View More
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div
+                class="img d-flex justify-content-center justify-content-lg-end py-5"
+              >
+                <img class="w-100 shadowImg" src="images/badshah.webp" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <!-- Gandhara civilization -->
+          <div class="mx-2 mx-md-0 mx-lg-4 mx-lg-5 my-5">
+            <div
+              class="d-flex align-items-center mx-md-2 mx-lg-4 mx-xl-5 p-5 gap-5 minarSec"
+            >
+              <div
+                class="img d-flex justify-content-center justify-content-lg-end py-5"
+              >
+                <img
+                  class="w-100 shadowImg"
+                  src="images/Gandhara-School-of-Art.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="txt">
+                <h2 class="org">Gandhara civilization</h2>
+                <p>
+                  The Gandhara civilization, flourishing in present-day Pakistan
+                  and Afghanistan from the 6th century BCE to the 5th century
+                  CE, was renowned for its exquisite Buddhist art and sculpture,
+                  blending Hellenistic and Indian influences. This ancient
+                  civilization played a pivotal role in the transmission of
+                  Buddhist culture across Central Asia, leaving a lasting legacy
+                  in art and philosophy.
+                </p>
+                <div class="d-flex justify-content-start">
+                  <a href="./heritage_sub.html">
+                    <button
+                      class="btn text-white"
+                      style="background-color: #f27420"
+                    >
+                      View More
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- kartas section -->
+          <div class="mx-2 mx-md-0 mx-lg-4 mx-lg-5 my-5">
+            <div
+              class="d-flex align-items-center mx-md-2 mx-lg-4 mx-xl-5 p-5 gap-5 faisalSec"
+            >
+              <div class="txt">
+                <h2 class="org">Katas Raj Mandir</h2>
+                <p>
+                  Katas Raj Mandir, a historic Hindu temple complex in Pakistan,
+                  is renowned for its sacred pools and intricate stone carvings,
+                  dating back over a millennium. This architectural marvel,
+                  nestled amidst the serene Chakwal district, holds deep
+                  cultural and religious significance, attracting visitors with
+                  its timeless beauty and spiritual ambiance.
+                </p>
+                <div class="d-flex justify-content-start">
+                  <a href="./heritage_sub.html" id="faisal">
+                    <button
+                      class="btn text-white"
+                      style="background-color: #f27420"
+                    >
+                      View More
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div
+                class="img d-flex justify-content-center justify-content-lg-end py-5"
+              >
+                <img class="w-100 shadowImg" src="images/kartas.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Nankana sahib -->
+          <div class="mx-2 mx-md-0 mx-lg-4 mx-lg-5 my-5">
+            <div
+              class="d-flex align-items-center mx-md-2 mx-lg-4 mx-xl-5 p-5 gap-5 minarSec"
+            >
+              <div
+                class="img d-flex justify-content-center justify-content-lg-end py-5"
+              >
+                <img
+                  class="w-100 shadowImg"
+                  src="images/170-Nankana Sahib-Punjab, Pakistan.JPG"
+                  alt=""
+                />
+              </div>
+
+              <div class="txt">
+                <h2 class="org">Nankana Sahib</h2>
+                <p>
+                  Nankana Sahib, located in Punjab, Pakistan, is the birthplace
+                  of Guru Nanak Dev Ji, the founder of Sikhism, making it a
+                  revered pilgrimage site for Sikhs worldwide. The city is home
+                  to the Gurdwara Janam Asthan, a prominent Sikh gurdwara built
+                  at the site of Guru Nanak's birth.
+                </p>
+                <div class="d-flex justify-content-start">
+                  <a href="./heritage_sub.html">
+                    <button
+                      class="btn text-white"
+                      style="background-color: #f27420"
+                    >
+                      View More
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footerBtm">
+      <div>
+        <a href="index.html">Preet Punjab.com</a>
+      </div>
+
+      <div class="ftrAbout">
+        <div><a href="about.html">About Us</a></div>
+        <div class="ftrLine"></div>
+        <div><a href="contact.html">Contact Us</a></div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

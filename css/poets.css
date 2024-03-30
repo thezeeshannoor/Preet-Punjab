@@ -1,0 +1,52 @@
+.hero {
+  background-image: url("../images/poetrylist-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 9%;
+  height: 350px;
+}
+.poet {
+  width: 22%;
+}
+.poetImg {
+  width: 100%;
+  object-fit: cover;
+}
+.poetDesc {
+  background-color: #fff5e5;
+}
+#poetsDiv {
+  margin-top: 20px;
+}
+.filterBtnActive {
+  background-color: #f27420;
+  color: white;
+}
+.filterBtnNotActive {
+  border: 1px solid #f27420 !important;
+  color: #f27420;
+  background-color: white;
+}
+.filterBtn {
+  border: unset;
+  padding: 5px 40px;
+  border-radius: 14px;
+}
+@media (max-width: 600px) {
+  .filterBtn {
+    padding: 5px 20px;
+  }
+}
+@media (max-width: 500px) {
+  .hero {
+    height: 250px;
+  }
+  .poet {
+    width: 90%;
+  }
+}
+@media (min-width: 501px) and (max-width: 1000px) {
+  .poet {
+    width: 45%;
+  }
+}

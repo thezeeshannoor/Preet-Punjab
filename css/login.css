@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.loginbody {
+  background-color: #fdf1cb;
+}
+
+/* main section */
+.main-login-section {
+  padding: 50px 0px;
+}
+
+.main-login-section .login-image-section {
+  background: url(../images/login.jpg) no-repeat;
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15%;
+  background-size: cover;
+  text-align: center;
+  height: 100%;
+  color: var(--white-color);
+}
+
+.main-login-section .image-section-content {
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  color: white;
+  padding: 70px 0px;
+  height: 400px;
+}
+
+.login-form-section {
+  background-color: #f7f7ff;
+}
+
+.login-form-section .para h5 {
+  color: #9b2c47;
+}
+
+.login-form-section .form-section-heading {
+  background-color: #9b2c47;
+  border-radius: 0px 20px 0px 0px;
+  /* padding: 10px; */
+}
+
+.login-form-section .form-section-heading h2 {
+  color: white;
+  font-size: 20px;
+  padding: 23px;
+}
+
+.login-form-section .login-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10% 15%;
+  margin-top: 80px;
+}
+
+.login-form-section .login-section h4 {
+  font-size: 33px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 900;
+  color: #f27420;
+}
+
+.login-form-section .login-section p > a {
+  color: black !important;
+  text-decoration: none;
+  float: right;
+}
+
+.login-section button,
+.image-section button {
+  width: 42%;
+  margin-bottom: 63px;
+  background-color: #f27420 !important;
+  padding: 12px 0px !important;
+  font-size: 18px;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  float: inline-end;
+  margin-top: 100px;
+}
+
+.form-control:focus {
+  border-bottom-color: #ced4da !important;
+  box-shadow: none !important;
+}
+.form-control {
+  padding: 0.375rem 8.75rem 9px 13px !important;
+  font-size: 1rem !important;
+  border: none !important;
+  background-color: #f7f7ff !important;
+  border-bottom: 2px solid #c2c2c7 !important;
+}
+
+/* .form-check-input:checked {
+    background-color: #9b2c47 !important;
+    border-color: #9b2c47 !important;
+} */
+
+.form-check-input:focus {
+  border-color: #9b2c47;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(243 126 154 / 25%);
+}

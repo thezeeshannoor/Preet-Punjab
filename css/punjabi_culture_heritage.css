@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carousel img {
+  filter: brightness(60%);
+}
+.foodSec,
+.artSec,
+.minarSec {
+  background-color: #fff5e5;
+}
+.foodSec h2,
+.artSec h2,
+.dressSec h2,
+.faisalSec h2,
+.minarSec h2,
+.badshah h2,
+.hero h2 {
+  color: #f27420;
+}
+.shadowImg {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  transition: all 0.2s ease-in;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.shadowImg:hover {
+  /* position: relative; */
+  margin-top: 5px;
+}
+.relDiv {
+  position: relative;
+  width: 350px;
+  height: 300px;
+  /* left: 100px; */
+  border: 6px solid #f27420;
+}
+.absDiv {
+  position: absolute;
+  width: 350px;
+  right: 30px;
+  bottom: 30px;
+}
+.dressSec .absDiv,
+.danceSec .absDiv {
+  right: 0;
+  bottom: 0;
+  left: 30px;
+  /* height: 200px; */
+  top: 30px;
+}
+.danceSec .absDiv {
+  height: 350px;
+}
+.dressSec,
+.danceSec {
+  background-color: white;
+}
+.txt,
+.img {
+  width: 50%;
+}
+.aboutImg {
+  width: 50%;
+}
+.shadow {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.aboutImg:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  transition: all 0.2s ease-in;
+}
+.borderRadiusImg {
+  border-radius: 10%;
+}
+.heritageImg {
+  width: 400px;
+}
+
+.map {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #fff5e5;
+  padding: 30px;
+}
+
+.mapborder {
+  width: 100%;
+
+  border: 10px solid #f27420;
+}
+@keyframes up {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animation {
+  animation: up 3s ease-in-out infinite;
+}
+.map iframe {
+  width: 100%;
+  height: -webkit-fill-available;
+}
+@media (max-width: 500px) {
+  .animImg {
+    width: 300px !important;
+  }
+  .aboutImg {
+    width: 80%;
+  }
+  .absDiv,
+  .relDiv,
+  .danceSec .absDiv {
+    width: 220px;
+    height: 220px;
+  }
+}
+@media (max-width: 870px) {
+  .map {
+    width: 400px;
+    height: 300px;
+  }
+  .aboutImg {
+    height: 300px;
+  }
+  .dressSec,
+  .danceSec,
+  .minarSec {
+    flex-direction: column-reverse !important;
+  }
+  .foodSec,
+  .artSec,
+  .dressSec,
+  .faisalSec,
+  .badshahSec {
+    flex-direction: column;
+  }
+  .img,
+  .txt {
+    width: 100%;
+  }
+}

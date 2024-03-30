@@ -1,0 +1,394 @@
+.boxDiv {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #fff5e5;
+  width: 30%;
+  position: relative;
+  bottom: 30px;
+}
+.carousel-item img {
+  filter: brightness(60%);
+}
+.boxDiv h3 {
+  font-size: 16px;
+}
+.boxDiv p {
+  font-size: 14px;
+}
+.aboutImg {
+  background-color: #f27420;
+
+  position: relative;
+
+  width: 300px;
+  height: 320px;
+  background-color: #fff5e5;
+}
+.aboutImg img {
+  object-fit: cover;
+  position: absolute;
+
+  right: 10%;
+  bottom: 8%;
+
+  max-width: 100%;
+}
+.aboutHead {
+  position: absolute;
+}
+.aboutBox {
+  position: relative;
+  left: 55px;
+  bottom: 10px;
+  z-index: -1;
+  height: 100px;
+  width: 200px;
+  border: 10px solid #fff5e5;
+}
+.socialIcons {
+  margin: 20px 0;
+  background-color: #fff5e5;
+  width: 200px;
+}
+.socialIcons i {
+  font-size: 40px;
+  color: #f27420;
+}
+.linkBox {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #f2742088;
+  cursor: pointer;
+}
+.famousPoet {
+  width: 22%;
+}
+.poetDiv {
+  justify-content: center;
+}
+.poetImg {
+  width: 100%;
+  object-fit: cover;
+}
+.poetDesc {
+  background-color: #fff5e5;
+}
+.popularPoetry {
+  margin-top: 100px;
+  background-color: #fff5e5;
+}
+.popSlider {
+  width: 50%;
+}
+.popSliderFirst,
+.popSliderSecond {
+  width: 300px;
+  position: relative;
+  bottom: 80px;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white;
+}
+#sliderDescHeadFirst,
+#sliderDescHeadSecond {
+  text-align: center;
+}
+#firstWriter,
+#secondWriter {
+  position: absolute;
+  bottom: 16px;
+  color: #6c6c6c;
+}
+.popTxt {
+  width: 40%;
+}
+#popPrev,
+#popNext {
+  padding: 5px 10px;
+  border: 1px solid #f27420;
+  color: #f27420;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.poetPic {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.con {
+  width: 18%;
+}
+.con img {
+  width: 35%;
+  height: auto;
+}
+.popBtns {
+  position: relative;
+  bottom: 40px;
+}
+.con {
+  position: relative;
+  width: 15%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.con img {
+  min-width: 150px;
+  max-width: 20%;
+}
+
+.overlay {
+  min-width: 150px;
+  max-width: 20%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* height: auto; */
+  /* width: 100%; */
+  border-radius: 50%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #1818186e;
+}
+.text b,
+.text p {
+  font-size: 12px;
+}
+.con:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.heritage {
+  background-color: #fff5e5;
+}
+.imgTxt,
+.secondImgTxt {
+  position: relative;
+}
+.imgTxt b {
+  position: absolute;
+  bottom: 30px;
+  left: 18px;
+  color: white;
+}
+.secondImgTxt b {
+  position: absolute;
+  bottom: 12px;
+  left: 18px;
+  color: white;
+}
+.heritage img {
+  filter: brightness(80%);
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.centerImg {
+  position: relative;
+  bottom: 16px;
+}
+.centerImg img {
+  position: relative;
+  width: 150px;
+  z-index: 2;
+  height: 220px !important;
+}
+.secondImg {
+  position: relative;
+  bottom: 25px;
+}
+.filterBtn {
+  border: unset;
+  padding: 5px 40px;
+  border-radius: 14px;
+}
+.filterBtnActive {
+  background-color: #f27420;
+  color: white;
+}
+.filterBtnNotActive {
+  border: 1px solid #f27420;
+  color: #f27420;
+  background-color: white;
+}
+.heritage img {
+  height: 200px;
+}
+
+.allImg {
+  margin-top: 20px;
+}
+
+@media (max-width: 575px) {
+  .allImg {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .allImg img {
+    object-fit: cover;
+
+    width: 100%;
+  }
+  .heritage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heritage img {
+    object-fit: fill;
+    /* margin: 0 auto; */
+    min-width: 250px;
+    max-width: 100%;
+    height: 200px;
+  }
+}
+@media (min-width: 767px) and (max-width: 867px) {
+  .borderDiv {
+    border-left: 5px solid #f27420;
+    border-top: 5px solid #f27420;
+    width: 550px;
+    /* width: 70%; */
+  }
+}
+@media (min-width: 868px) {
+  .borderDiv {
+    border-left: 5px solid #f27420;
+    border-top: 5px solid #f27420;
+    width: 650px;
+  }
+}
+@media (min-width: 484px) and (max-width: 500px) {
+  .con {
+    display: flex;
+    justify-content: center;
+  }
+  .overlay {
+    left: 19px;
+  }
+}
+@media (max-width: 500px) {
+  .boxDiv {
+    width: 90% !important;
+  }
+
+  .centerImg {
+    position: unset;
+  }
+  .overlay {
+    width: 100%;
+  }
+
+  .con {
+    width: 40%;
+  }
+  .con img {
+    width: 100%;
+  }
+  .popTxt,
+  .popSlider {
+    width: 100%;
+  }
+  .popSlider {
+    flex-direction: column;
+  }
+  .popSliderSecond {
+    display: none;
+  }
+  .popSliderFirst {
+    width: 100%;
+  }
+  .famousPoet {
+    width: 90%;
+  }
+  .popSliderFirst,
+  .popSliderSecond {
+    bottom: 0;
+  }
+  .popBtns {
+    top: 10px;
+    bottom: 0;
+  }
+}
+@media (min-width: 501px) and (max-width: 574px) {
+  .centerImg {
+    position: relative;
+    margin-top: 1.5rem !important;
+  }
+}
+@media (min-width: 575px) and (max-width: 600px) {
+}
+@media (min-width: 501px) and (max-width: 1000px) {
+  .overlay {
+    min-width: 150px;
+    max-width: 30%;
+  }
+  .con {
+    width: 28%;
+  }
+  .con img {
+    min-width: 150px;
+    max-width: 30%;
+  }
+
+  .popBtns {
+    top: 10px;
+    bottom: 0;
+  }
+  .popSliderFirst,
+  .popSliderSecond {
+    bottom: 0;
+  }
+  .popularPoetry {
+    flex-direction: column;
+  }
+  .famousPoet {
+    width: 45%;
+  }
+  .popTxt,
+  .popSlider {
+    width: 100%;
+  }
+  /* .popSlider {
+    flex-direction: column;
+  } */
+  .popSliderFirst,
+  .popSliderSecond {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .filterBtn {
+    padding: 5px;
+
+    border-radius: 5px;
+  }
+  .aboutBox {
+    left: 44px;
+  }
+  .boxDiv {
+    width: 80%;
+  }
+  .slider_head {
+    font-size: 40px;
+  }
+}
+@media (min-width: 801px) {
+  .slider_head {
+    font-size: 50px;
+  }
+}

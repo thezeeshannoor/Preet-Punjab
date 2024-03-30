@@ -1,0 +1,120 @@
+.hero {
+  background-image: url("../images/poetrylist-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: 9%;
+  height: 300px;
+}
+.poetImg {
+  position: relative;
+  top: 20%;
+  left: 5%;
+}
+.poetImg img {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 60%;
+  height: 200px;
+  border: 5px solid #f27420;
+}
+.profile {
+  font-size: 20px;
+}
+.profile span {
+  color: #f27420;
+  font-weight: bolder;
+}
+.map {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #fff5e5;
+  padding: 30px;
+}
+.mapborder {
+  border: 10px solid #f27420;
+}
+.map iframe {
+  width: 600px;
+}
+
+.absPic {
+  background-color: #f27420;
+  width: 500px;
+}
+.absPic img {
+  position: relative;
+  left: 20px;
+  top: 20px;
+  width: 500px;
+  border-right: 3px dotted black;
+  border-bottom: 3px dotted black;
+}
+.gazalTxt {
+  width: 85%;
+  margin: 30px auto;
+  padding: 50px 0;
+  font-size: 20px;
+  font-weight: 400;
+  /* word-spacing: 5px; */
+  text-align: justify;
+  text-align-last: justify;
+  cursor: pointer;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.gazalTxt div :hover {
+  background-color: #f27420;
+  color: white;
+  padding: 5px;
+}
+
+.gazalTxt p {
+  text-align: justify;
+}
+.back {
+  color: #f27420;
+}
+.gazal {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.gazal hr {
+  border: 1px solid #94928f;
+}
+@media (max-width: 500px) {
+  .hero {
+    height: 250px;
+  }
+  .poetImg {
+    transform: translate(0, 5%);
+  }
+  .poetImg img {
+    width: 30%;
+  }
+  .poetImg h2,
+  .poetImg p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 700px) {
+  .absPic,
+  .absPic img {
+    width: 100%;
+  }
+}
+@media (min-width: 767px) and (max-width: 1400px) {
+  .absPic,
+  .absPic img {
+    width: 90%;
+  }
+}
+@media (max-width: 1100px) {
+  .gazalTxt {
+    text-align-last: unset;
+  }
+}
+@media (max-width: 1400px) {
+  .map iframe {
+    width: 100%;
+  }
+}

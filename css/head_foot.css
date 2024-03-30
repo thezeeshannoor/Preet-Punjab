@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header */
+.navDiv {
+  padding: 0 2%;
+  position: fixed;
+  z-index: 50;
+  width: 100%;
+
+  background-color: white;
+}
+@keyframes move {
+  from {
+    transform: translateY(80px); /* Starting style */
+  }
+  to {
+    transform: translateY(20px); /* Ending style */
+  }
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.org {
+  color: #f27420;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+#navBtn {
+  display: none;
+}
+#navPages {
+  display: flex;
+}
+#navPages div {
+  cursor: pointer;
+}
+#navPages div:hover {
+  color: #f27420;
+}
+#navPages a {
+  color: black;
+}
+.active {
+  color: #f27420 !important;
+}
+.firstNav,
+.navPages {
+  padding: 0 5%;
+}
+/* footer */
+.footerBtm {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 3% 0 3%;
+}
+.footerBtm a {
+  text-decoration: none;
+  color: white;
+}
+.ftrAbout,
+.ftrAbout p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  font-weight: 200;
+  color: white;
+}
+.ftrLine {
+  width: 1px;
+  background-color: white;
+  height: 14px;
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: #f27420;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.searchBar {
+  padding: 10px;
+  border: 1px solid gray;
+  height: 40px;
+}
+.searchBar:focus {
+  outline: 2px solid #f27420;
+  border: none;
+}
+.navHead {
+  padding-left: 5rem;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: block;
+  width: 100px !important;
+  background-color: #f9f9f9;
+}
+.goog-te-gadget-icon {
+  display: none;
+}
+.goog-te-gadget-simple {
+  background-color: #f27420 !important;
+  border: 0 !important;
+
+  font-weight: 400;
+  display: inline-block;
+
+  padding: 5px !important;
+  cursor: pointer;
+  zoom: 1;
+}
+
+.goog-te-gadget-simple span {
+  color: white !important;
+}
+
+/* Show the Dropdown Content on Hover */
+
+@media (max-width: 400px) {
+  .footerBtm {
+    flex-direction: column;
+  }
+  .firstNav {
+    align-items: center;
+  }
+  .navDiv h1 {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 3px;
+    font-size: 18px;
+  }
+  .navDiv button {
+    font-size: 10px;
+  }
+}
+@media (max-width: 700px) {
+  .navHead {
+    padding-left: 2.5rem;
+  }
+}
+@media (max-width: 1000px) {
+  .searchBar {
+    width: 70%;
+  }
+  .navDiv {
+    padding: 0;
+  }
+  #navPages {
+    display: none;
+    flex-direction: column;
+  }
+  #navBtn {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    gap: 5px;
+  }
+  #navBtn div {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .firstNav,
+  .navPages {
+    padding: 0 20px;
+  }
+  .navPages div {
+    padding: 2px 0;
+  }
+}
+@media (min-width: 1001px) {
+  .footerBtm {
+    padding: 20px 7%;
+  }
+  #navPages {
+    display: flex !important;
+  }
+  .firstSec {
+    padding-top: 66px;
+  }
+}

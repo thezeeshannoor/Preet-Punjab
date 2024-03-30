@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/punjabi_culture_heritage.css" />
+    <link rel="stylesheet" href="css/head_foot.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <title>Punjabi Heritage</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navDiv d-flex flex-column py-2">
+      <div
+        class="firstNav d-flex justify-content-between justify-content-sm-between"
+      >
+        <div class="dropdown d-flex align-items-center">
+          <div id="myDropdown" class="dropdown-content">
+            <!-- Google Translate Element -->
+            <div id="google_translate_element"></div>
+          </div>
+        </div>
+
+        <h1 class="navHead">
+          <a href="index.html" class="text-decoration-none text-black"
+            >Preet//<span style="color: #f27420">Punjab</span></a
+          >
+        </h1>
+        <div
+          class="searchSignUp d-flex justify-content-center align-items-center gap-sm-4 gap-lg-2"
+        >
+          <input type="text" class="rounded searchBar d-none d-lg-block" />
+          <div
+            class="rounded px-2 py-2 d-none d-lg-block text-white d-flex align-items-center justify-content-center"
+            style="background-color: #f27420; cursor: pointer"
+          >
+            <img src="images/search.png" alt="" width="20" />
+          </div>
+          <div
+            class="line d-none d-lg-block"
+            style="
+              width: 2px;
+              height: 40px;
+              background-color: rgba(0, 0, 0, 0.452);
+            "
+          ></div>
+          <button
+            class="btn text-white d-none d-md-block"
+            style="background-color: #f27420"
+          >
+            <a href="signup.html"> Sign Up</a>
+          </button>
+          <div id="navBtn">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="navPages" class="navPages justify-content-between py-3">
+        <div class="d-flex justify-content-center gap-1">
+          <input type="text" class="rounded searchBar d-block d-lg-none" />
+          <div
+            class="rounded px-2 py-2 d-block d-lg-none text-white d-flex align-items-center justify-content-center"
+            style="background-color: #f27420; cursor: pointer"
+          >
+            <img src="images/search.png" alt="" width="20" />
+          </div>
+        </div>
+        <div class="fw-medium">
+          <a id="home" class="text-decoration-none" href="index.html">Home</a>
+        </div>
+        <div class="fw-medium">
+          <a id="about" class="text-decoration-none" href="about.html"
+            >About Us</a
+          >
+        </div>
+        <div class="fw-medium">
+          <a id="poet" class="text-decoration-none" href="poets.html">Poet</a>
+        </div>
+        <div class="fw-medium">
+          <a id="poetry" class="text-decoration-none" href="poetry.html"
+            >Poetry</a
+          >
+        </div>
+        <div class="fw-medium">
+          <a id="kalam" class="text-decoration-none" href="index.html"
+            >Sufiyana Kalam</a
+          >
+        </div>
+        <div class="fw-medium">
+          <a
+            id="culture"
+            class="text-decoration-none"
+            href="punjabiculture.html"
+            >Punjabi Culture</a
+          >
+        </div>
+        <div class="fw-medium">
+          <a
+            id="heritage"
+            class="text-decoration-none active"
+            href="punjabheritage.html"
+            >Punjab Heritage</a
+          >
+        </div>
+        <div href="index.html" class="fw-medium">
+          <a id="conatct" class="text-decoration-none" href="contact.html"
+            >Contact Us</a
+          >
+        </div>
+        <button
+          class="btn text-white d-block d-md-none"
+          style="background-color: #f27420"
+        >
+          Sign Up
+        </button>
+      </div>
+    </div>
+
+    <div class="count firstSec my-5">
+      <!-- hero sectio -->
+      <div
+        class="d-flex m-4 m-lg-3 flex-column flex-lg-row align-items-center justify-content-center p-3 p-lg-2 p-lg-5 gap-5 left"
+      >
+        <div class="hero w-100 w-lg-50">
+          <h2>Badshahi <span>Mosque</span></h2>
+          <p>
+            The Badshahi Mosque, located in Lahore, Pakistan, is a magnificent
+            example of Mughal architecture, known for its grandeur and
+            historical significance. Completed in 1673, it remains one of the
+            largest mosques in the world, attracting visitors with its stunning
+            beauty and rich cultural heritage.
+          </p>
+        </div>
+        <div
+          class="w-100 w-lg-50 d-flex justify-content-center justify-content-lg-end"
+        >
+          <img
+            src="images/badshah1.jpg"
+            alt=""
+            width="400"
+            class="borderRadiusImg shadow animation animImg"
+          />
+          <!-- <div class="d-flex justify-content-md-end">
+          <img
+            src="images/badshah3.webp"
+            alt=""
+            width="350"
+            class="borderRadiusImg shadowImg"
+          />
+        </div> -->
+        </div>
+      </div>
+
+      <!-- about section -->
+      <div class="mx-0 mx-lg-2 my-5 d-flex flex-column-reverse flex-lg-row p-5">
+        <div class="w-100 w-lg-50 map d-flex justify-content-center ali">
+          <div class="mapborder">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.6755665441315!2d74.30686077469947!3d31.58794354380205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191c9dbf0ddeb1%3A0x13bfcdb10fb490de!2sBadshahi%20Mosque!5e0!3m2!1sen!2s!4v1708428780075!5m2!1sen!2s"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+
+        <div
+          class="d-flex flex-column mx-md-2 mx-lg-0 mx-xl-5 gap-1 about w-100 w-lg-50"
+        >
+          <div>
+            <h2>About</h2>
+            <p id="heritageTxt">
+              “If you have not visited Lahore, you have not yet been born.” So,
+              the saying goes in Pakistan’s second largest city. Why such
+              confident largess from the Lahoris, who variously refer to their
+              city as the Paris of the East and the Cultural Capital of
+              Pakistan? I spent a few days there to find out. The capital of the
+              fertile Punjab (“five rivers”) region, Lahore has been fought over
+              and ruled from by a number of great empires. Arguably, it reached
+              its peak under the Mughal Empire, before the Sikh Empire was
+              centred here and more recently the British Empire, before
+              partition and Pakistan’s self rule since 1947. Each empire has
+              left their mark on the city and, in architectural terms at least,
+              the city is the richer for it. The city is also the most
+              cosmopolitan in Pakistan, a liberal and creative hub where
+              ‘Lollywood’ the Pakistani film scene, is based. Having crossed the
+              border between India and Pakistan on foot at the Wagha Border,
+              scene of the nightly flamboyant border closing ceremony, my first
+              stop was Lahore Fort.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="px-5 mx-lg-0 my-5 d-flex flex-column align-items-center flex-sm-row justify-content-center gap-2 w-100"
+      >
+        <img class="aboutImg" src="images/badshah1.jpg" alt="" height="500" />
+        <img class="aboutImg" src="images/badshah2.jpg" alt="" height="500" />
+      </div>
+
+      <div class="p-5">
+        <!-- nearest hotels -->
+        <h4>
+          Nearby <span class="org">Accommodations</span> &
+          <span class="org">Distance</span> from Allama Iqbal International
+          Airport to the Iconic Badshahi Mosque
+        </h4>
+
+        <div>
+          <p>
+            The distance between the Badshahi Mosque in Lahore and the Allama
+            Iqbal International Airport in Lahore, Pakistan, is approximately 17
+            kilometers (10.5 miles) by road. The travel time between the two
+            locations can vary depending on traffic conditions.
+          </p>
+        </div>
+
+        <div class="d-flex">
+          <div>
+            <ul>
+              <li><h6>Pearl Continental Lahore</h6></li>
+              <li><h6>Hotel One Lahore</h6></li>
+              <li><h6>Lahore Guest House</h6></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="d-flex flex-wrap justify-content-center gap-2">
+          <img
+            src="images/1.jpg"
+            alt=""
+            class="shadowImg"
+            width="400"
+            height="400"
+          />
+          <img
+            src="images/img2.avif"
+            alt=""
+            class="shadowImg"
+            width="400"
+            height="400"
+          />
+          <img
+            src="images/img3.jpg"
+            alt=""
+            class="shadowImg"
+            width="400"
+            height="400"
+          />
+          <img
+            src="images/view-of-badshahi-mosque.jpg"
+            alt=""
+            class="shadowImg"
+            width="400"
+            height="400"
+          />
+          <img
+            src="images/hotel-exterior.jpg"
+            alt=""
+            class="shadowImg"
+            width="400"
+            height="400"
+          />
+          <img
+            src="images/71d0610f.avif"
+            alt=""
+            class="shadowImg"
+            width="400"
+            height="400"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footerBtm">
+      <div>
+        <a href="index.html">Preet Punjab.com</a>
+      </div>
+
+      <div class="ftrAbout">
+        <div><a href="about.html">About Us</a></div>
+        <div class="ftrLine"></div>
+        <div><a href="contact.html">Contact Us</a></div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

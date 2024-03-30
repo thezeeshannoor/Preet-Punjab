@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/signup.css" />
+    <link rel="stylesheet" href="css/head_foot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+
+
+
+    <title>Sign Up</title>
+  </head>
+  <body class="d-flex loginbody flex-column min-vh-100">
+    <!-- navbar -->
+    <div class="navDiv d-flex flex-column   py-2">
+      <div class="firstNav d-flex justify-content-between justify-content-sm-between">
+        <div class="dropdown d-flex align-items-center" >
+          
+         
+          <div id="myDropdown" class="dropdown-content" >
+              <!-- Google Translate Element -->
+              <div id="google_translate_element"></div>
+          </div>
+      </div>
+      
+        <h1 class="navHead"><a href="index.html" class="text-decoration-none text-black">Preet//<span style="color: #f27420">Punjab</span></a> </h1>
+        <div
+          class="searchSignUp d-flex justify-content-center align-items-center  gap-sm-4 gap-lg-2"
+        >  <input type="text" class="rounded searchBar d-none d-lg-block">
+          <div
+            class="rounded px-2 py-2 d-none d-lg-block text-white d-flex align-items-center justify-content-center"
+            style="background-color: #f27420;cursor: pointer;"
+          > 
+          
+            <img src="images/search.png" alt="" width="20" />
+          </div>
+          <div
+            class="line d-none d-lg-block"
+            style="
+              width: 2px;
+              height: 40px;
+              background-color: rgba(0, 0, 0, 0.452);
+            "
+          ></div>
+          <button class="btn text-white d-none d-md-block" style="background-color: #f27420">
+           <a href="signup.html"> Sign Up</a>
+          </button>
+          <div id="navBtn">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="navPages" class="navPages justify-content-between py-3">
+        <div class="d-flex justify-content-center gap-1">
+          <input type="text" class="rounded searchBar d-block d-lg-none">
+          <div
+            class="rounded px-2 py-2 d-block d-lg-none text-white d-flex align-items-center justify-content-center"
+            style="background-color: #f27420;cursor: pointer;"
+          > 
+          
+            <img src="images/search.png" alt="" width="20" />
+          </div>
+        </div>
+        <div class="fw-medium">
+          <a id="home" class="text-decoration-none active" href="index.html"
+            >Home</a
+          >
+        </div>
+        <div class="fw-medium">
+          <a id="about" class="text-decoration-none" href="about.html"
+            >About Us</a
+          >
+        </div>
+        <div class="fw-medium">
+          <a id="poet" class="text-decoration-none" href="poets.html">Poet</a>
+        </div>
+        <div class="fw-medium">
+          <a id="poetry" class="text-decoration-none" href="poetry.html"
+            >Poetry</a
+          >
+        </div>
+        <div class="fw-medium">
+          <a id="kalam" class="text-decoration-none" href="index.html"
+            >Sufiyana Kalam</a
+          >
+        </div>
+        <div class="fw-medium">
+          <a id="culture" class="text-decoration-none" href="punjabiculture.html"
+            >Punjabi Culture</a
+          >
+        </div>
+        <div class="fw-medium">
+          <a id="heritage" class="text-decoration-none" href="punjabheritage.html"
+            >Punjab Heritage</a
+          >
+        </div>
+        <div href="index.html" class="fw-medium">
+          <a id="conatct" class="text-decoration-none" href="contact.html"
+            >Contact Us</a
+          >
+        </div>
+        <button class="btn text-white d-block d-md-none" style="background-color: #f27420">
+          Sign Up
+        </button>
+      </div>
+    </div>
+
+    <div class="firstSec cont">
+
+         <!-- main section start-->
+  <div class="container-fluid">
+    <div class="container main-signup-section">
+      <div class="row">
+        <div class="col-lg-6 p-0">
+          <div class="signup-image-section">
+            <div class="image-section-content">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 p-0 signup-form-section">
+          <div class="signup-section">
+            <h4>Sign Up </h4>
+            <!-- <form action=""></form> -->
+            <form action="#" method="" class="contform">
+              <div class="mb-4">
+                <input type="text" name="name" class="form-control" placeholder="Username" value="" required />
+              </div>
+              <div class="mb-4">
+                <input type="password" name="email" class="form-control" placeholder="Password" required />
+              </div>
+              <div class="mb-4">
+                <input type="password" name="phone" class="form-control" placeholder="Confirm Password" value=""
+                  required />
+              </div>
+              <div class="mb-4">
+                <input type="email" name="email" class="form-control" placeholder="Mail" value="" required />
+              </div>
+              <div class="mb-4 form-check">
+                <input type="checkbox" class="form-check-input" id="checkme" name="remember" />
+                <label class="form-check-label" for="checkme">Remember me
+                </label>
+              </div>
+              <div class="submitbtn">
+                <button type="submit" class="conbtn">Sign Up</button>
+              </div>
+            </form>
+          </div>
+          <div class="signup-section1">
+            <p>Already have an account? <a href="login.html">login</a> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main section end-->
+    </div>
+
+ <!-- footer -->
+ <div class="footerBtm">
+  <div>
+    <a href="index.html">Preet Punjab.com</a>
+  </div>
+
+  <div class="ftrAbout">
+    <div><a href="about.html">About Us</a></div>
+    <div class="ftrLine"></div>
+    <div><a href="contact.html">Contact Us</a></div>
+  </div>
+</div>
+    <script src="./js/script.js"></script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  </html>

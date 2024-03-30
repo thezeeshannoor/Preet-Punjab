@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.loginbody{
+    background-color: #fdf1cb;
+
+}
+
+/* main section */
+.main-login-section {
+    padding: 50px 0px;
+}
+
+
+
+.main-login-section .login-image-section {
+    background: url(../images/lahore\ font.jpg) no-repeat;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15%;
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+    color: var(--white-color);
+}
+
+
+.main-login-section .image-section-content {
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: white;
+    padding: 70px 0px;
+    height: 400px;
+}
+
+
+.login-form-section {
+    background-color: #F7F7FF;
+}
+
+
+.login-form-section .form-section-heading h2 {
+    color: white;
+    font-size: 20px;
+    padding: 23px;
+}
+.login-form-section .login-section  {
+    display: flex;
+    flex-direction: column;
+    padding: 6% 7%;
+}
+
+.login-form-section .login-section h3 {
+    align-items: center;
+    justify-content: center;
+}
+.login-form-section .login-section .about_content {
+    align-items: left;
+    justify-content: left;
+}
+
+.login-form-section .login-section h3 {
+    font-size: 43px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 900;
+    color: #f27420;
+}
+
+.login-form-section .login-section p>a {
+    color: black !important;
+    text-decoration: none;
+    float: right;
+}
+.about_content{
+    float: left;
+}
