@@ -274,8 +274,8 @@ document.addEventListener("DOMContentLoaded", function () {
       case "all":
         targetBtn.classList.add("filterBtnActive");
         all.forEach((img) => {
-          img.style.display = "block";
-          img.style.minWidth = "300px";
+          img.style.display = "flex";
+
           setTimeout(() => {
             img.style.animation = "move 0.2s linear 1";
           }, 0);
