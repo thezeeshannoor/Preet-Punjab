@@ -285,7 +285,9 @@ document.addEventListener("DOMContentLoaded", function () {
       case "dress":
       case "art":
         document.getElementById(targetId).classList.add("filterBtnActive");
-        document.getElementById(`${targetId}Img`).style.display = "none";
+        document.getElementById(`${targetId}Img`).style.display = "flex";
+        document.getElementById(`${targetId}Img`).style.justifyContent =
+          "center";
         setTimeout(() => {
           document.getElementById(`${targetId}Img`).style.animation =
             "move 0.2s linear 1";
