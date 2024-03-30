@@ -235,6 +235,9 @@
 }
 
 @media (max-width: 575px) {
+  .carousel-item img {
+    height: 180px;
+  }
   .allImg {
     display: flex;
     justify-content: center;
