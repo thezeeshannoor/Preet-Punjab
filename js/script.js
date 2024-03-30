@@ -285,7 +285,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "dress":
       case "art":
         document.getElementById(targetId).classList.add("filterBtnActive");
-        document.getElementById(`${targetId}Img`).style.display = "flex";
+        document.getElementById(`${targetId}Img`).style.display = "none";
         setTimeout(() => {
           document.getElementById(`${targetId}Img`).style.animation =
             "move 0.2s linear 1";
@@ -294,6 +294,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "dance":
         targetBtn.classList.add("filterBtnActive");
         document.getElementById("danceImg").style.display = "flex";
+        document.getElementById("danceImg").style.justifyContent = "center";
         setTimeout(() => {
           document.getElementById("danceImg").style.animation =
             "move 0.2s linear 1";
