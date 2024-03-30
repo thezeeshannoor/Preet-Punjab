@@ -58,6 +58,10 @@ body {
 .navPages {
   padding: 0 5%;
 }
+.mobileBtn {
+  color: white !important;
+  font-size: 18px;
+}
 /* footer */
 .footerBtm {
   background-color: black;
