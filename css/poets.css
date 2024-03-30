@@ -41,6 +41,10 @@
   .hero {
     height: 250px;
   }
+  .filterBtn {
+    padding: 5px 8px;
+    font-size: 12px;
+  }
   .poet {
     width: 90%;
   }

@@ -238,6 +238,21 @@
   top: 8rem;
   bottom: unset !important;
 }
+@media (max-width: 400px) {
+  .slider_head_div {
+    top: 6rem;
+  }
+}
+@media (min-width: 401px) and (max-width: 575px) {
+  .slider_head_div {
+    top: 7rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 775px) {
+  .slider_head_div {
+    top: 11rem;
+  }
+}
 @media (max-width: 575px) {
   .carousel-item img {
     height: 300px;
@@ -245,9 +260,7 @@
   .slider_head {
     font-size: 25px !important;
   }
-  .slider_head_div {
-    top: 6rem;
-  }
+
   .allImg {
     display: flex;
     justify-content: center;
