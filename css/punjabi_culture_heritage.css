@@ -3,7 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.slider_head_div {
+  top: 8rem;
+  bottom: unset;
+}
 .carousel img {
   filter: brightness(60%);
 }
@@ -114,6 +117,12 @@
 .map iframe {
   width: 100%;
   height: -webkit-fill-available;
+}
+@media (max-width: 450px) {
+  .slider_head_div {
+    top: 8rem;
+    bottom: unset;
+  }
 }
 @media (max-width: 500px) {
   .animImg {
