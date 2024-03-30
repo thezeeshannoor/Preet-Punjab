@@ -7,7 +7,7 @@
 }
 .carousel-item img {
   filter: brightness(60%);
-  height: 80vh;
+  height: 400px;
 }
 .boxDiv h3 {
   font-size: 16px;
